@@ -5,7 +5,7 @@ This themes base on <b>Arc-Theme</b> </br>
 
 # Installation
 
-<b>Need :</b> GTK+ 3.22</br>
+<b>Needed :</b> GTK+ 3.22</br>
 <b>Have been test on :</b> Debian Stretch (9), Ubuntu 18.04 LTS, Linux Mint 19</br>
 <b>Install themes :</b> For a better result, Extract Archive File On Directory<i> /usr/share/themes (as root),</i> </br>
 If you install theme on local system, <i>/.themes or /.local/share/themes</i> may be GTK2 Theme not working properly.</br>
