@@ -1078,8 +1078,8 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:not(:checked):not(:acti
 .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button,
 .primary-toolbar .linked:not(.vertical).path-bar > button,
 headerbar .linked:not(.vertical).path-bar > button {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 17px;
+  padding-right: 17px;
   background-color: #0b2940; }
   .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover,
   .primary-toolbar .linked:not(.vertical).path-bar > button:hover,
@@ -1087,7 +1087,8 @@ headerbar .linked:not(.vertical).path-bar > button {
     background-color: transparent;
     background-image: url("assets/angle.png");
     background-repeat: no-repeat;
-    color: white; }
+    color: white;
+    background-position: left center; }
   .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked,
   .primary-toolbar .linked:not(.vertical).path-bar > button:active,
   headerbar .linked:not(.vertical).path-bar > button:active,
@@ -1484,7 +1485,7 @@ menu,
     min-height: 16px;
     min-width: 40px;
     padding: 5px;
-    padding-left: 25px; }
+    padding-left: 17px; }
     menu menuitem:disabled,
     .menu menuitem:disabled {
       color: rgba(236, 233, 224, 0.45); }
@@ -2918,23 +2919,22 @@ modelbutton.flat:selected arrow, treeview.view:selected, treeview.view:selected:
     .nautilus-window placessidebar.sidebar row.sidebar-row:disabled:active:hover {
       color: #64540c; }
 
-filechooser placessidebar.sidebar row.sidebar-row.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:hover,
+.tweak-categories .tweak-category:hover, filechooser placessidebar.sidebar row.sidebar-row.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:hover,
 .nautilus-window placessidebar.sidebar row.sidebar-row.has-open-popup,
 .nautilus-window placessidebar.sidebar row.sidebar-row:hover {
   background-color: rgba(255, 255, 255, 0.03);
   background-image: url("assets/angle.png");
   background-repeat: no-repeat;
-  color: #ffffff; }
+  color: #ffffff;
+  background-position: left center; }
 
 menu menuitem:hover,
 .menu menuitem:hover {
   background-color: rgba(255, 255, 255, 0.03);
   background-image: url("assets/angle.png");
   background-repeat: no-repeat;
-  color: #ffffff; }
-
-.tweak-category:hover {
-  background-color: rgba(255, 255, 255, 0.03); }
+  color: #ffffff;
+  background-position: left center; }
 
 notebook > header > tabs > tab {
   color: rgba(236, 233, 224, 0.45);
@@ -2949,7 +2949,8 @@ notebook > header > tabs > tab:checked {
   background-color: #0e191f;
   background-image: url("assets/angle.png");
   background-repeat: no-repeat;
-  color: #E6BB00; }
+  color: #E6BB00;
+  background-position: left center; }
 
 .gedit-bottom-panel-paned notebook > header.top > tabs > tab:checked,
 terminal-window notebook > header.top > tabs > tab:checked {
@@ -3325,12 +3326,16 @@ button.documents-favorite:active:hover {
   opacity: 0.0;
   transition: opacity 0.2s ease-out; }
 
+.tweak-categories .tweak-category label {
+  padding-left: 13.5px;
+  background-color: transparent; }
+
 .tweak-categories,
 .tweak-category:not(:selected):not(:hover) {
   background-image: linear-gradient(to bottom, #162730, #162730);
   color: #ECE9E0; }
 
-.tweak-category:hover {
+.tweak-categories .tweak-category:hover {
   color: #ffffff; }
 
 .tr-workarea undershoot,
@@ -3996,7 +4001,7 @@ filechooser placessidebar.sidebar,
   background-color: rgba(7, 21, 33, 0.97); }
   filechooser placessidebar.sidebar row.sidebar-row,
   .nautilus-window placessidebar.sidebar row.sidebar-row {
-    padding-left: 25px;
+    padding-left: 13.5px;
     border: none;
     color: #ECE9E0; }
     filechooser placessidebar.sidebar row.sidebar-row .sidebar-icon,
