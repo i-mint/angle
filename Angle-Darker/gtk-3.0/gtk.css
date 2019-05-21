@@ -1084,7 +1084,7 @@ headerbar .linked:not(.vertical).path-bar > button {
   .primary-toolbar .linked:not(.vertical).path-bar > button:hover,
   headerbar .linked:not(.vertical).path-bar > button:hover {
     background-color: transparent;
-    background-image: url("assets/angle.png");
+    background-image: url("assets/angle-dark.png");
     background-repeat: no-repeat;
     color: #c1c0b6;
     background-position: left center; }
@@ -2922,7 +2922,7 @@ modelbutton.flat:selected arrow, treeview.view:selected, treeview.view:selected:
 .nautilus-window placessidebar.sidebar row.sidebar-row.has-open-popup,
 .nautilus-window placessidebar.sidebar row.sidebar-row:hover {
   background-color: rgba(0, 0, 0, 0.01);
-  background-image: url("assets/angle.png");
+  background-image: url("assets/angle-dark.png");
   background-repeat: no-repeat;
   color: #ffffff;
   background-position: left center; }
@@ -2930,7 +2930,7 @@ modelbutton.flat:selected arrow, treeview.view:selected, treeview.view:selected:
 menu menuitem:hover,
 .menu menuitem:hover {
   background-color: rgba(0, 0, 0, 0.01);
-  background-image: url("assets/angle.png");
+  background-image: url("assets/angle-light.png");
   background-repeat: no-repeat;
   color: #141517;
   background-position: left center; }
@@ -2946,7 +2946,7 @@ notebook > header > tabs > tab:hover:not(:checked) {
 
 notebook > header > tabs > tab:checked {
   background-color: #f2f2f2;
-  background-image: url("assets/angle.png");
+  background-image: url("assets/angle-light.png");
   background-repeat: no-repeat;
   color: #E6BB00;
   background-position: left center; }
@@ -4234,3 +4234,72 @@ filechooser placessidebar.sidebar scrollbar,
 @define-color wm_icon_unfocused_bg #666A74;
 @define-color wm_icon_hover_bg #C4C7CC;
 @define-color wm_icon_active_bg #141517;
+.budgie-menu scrolledwindow {
+  background-color: rgba(7, 21, 33, 0.97); }
+.budgie-menu .category-button {
+  color: #ECE9E0;
+  padding-left: 15px; }
+  .budgie-menu .category-button:hover {
+    background-color: rgba(0, 0, 0, 0.01);
+    background-image: url("assets/angle-dark.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    border-color: transparent;
+    color: #B39200; }
+  .budgie-menu .category-button:checked {
+    background-color: #E6BB00;
+    border-color: #dcb300;
+    color: #141517; }
+  .budgie-menu .category-button:active {
+    background-color: rgba(230, 187, 0, 0.1);
+    border-color: rgba(230, 187, 0, 0.05); }
+.budgie-menu list, .budgie-menu row {
+  background-color: #ffffff; }
+.budgie-menu row button:hover {
+  background-color: rgba(230, 187, 0, 0.12);
+  border-color: rgba(230, 187, 0, 0.12); }
+  .budgie-menu row button:hover label {
+    color: #E6BB00; }
+.budgie-menu row button label {
+  color: #414037; }
+.budgie-menu row button:active {
+  background-color: rgba(230, 187, 0, 0.56);
+  border-color: rgba(230, 187, 0, 0.56); }
+  .budgie-menu row button:active label {
+    color: #414037; }
+.budgie-menu entry.search {
+  border-radius: 0px;
+  border-color: #ffffff; }
+
+.budgie-menu.background {
+  background-color: #162730; }
+
+.budgie-panel {
+  background-color: rgba(3, 8, 13, 0.97);
+  color: #ECE9E0; }
+  .budgie-panel button {
+    color: #ECE9E0; }
+  .budgie-panel #tasklist-button {
+    color: rgba(236, 233, 224, 0.78);
+    background-color: #0d283e; }
+    .budgie-panel #tasklist-button:hover {
+      color: rgba(236, 233, 224, 0.89);
+      background-color: #10304b; }
+    .budgie-panel #tasklist-button:checked {
+      color: #ECE9E0;
+      background-color: #123553; }
+  .budgie-panel .budgie-menu-launcher, .budgie-panel button.flat, .budgie-panel button.sidebar-button, .budgie-panel button.flat.launcher, .budgie-panel button.launcher.sidebar-button, .budgie-panel button.flat.raven-trigger, .budgie-panel button.raven-trigger.sidebar-button {
+    background-color: transparent;
+    color: #ECE9E0; }
+    .budgie-panel .budgie-menu-launcher:hover, .budgie-panel button.flat:hover, .budgie-panel button.sidebar-button:hover, .budgie-panel button.flat.launcher:hover, .budgie-panel button.launcher.sidebar-button:hover, .budgie-panel button.flat.raven-trigger:hover, .budgie-panel button.raven-trigger.sidebar-button:hover {
+      background-color: #10304b;
+      border-color: #10304b;
+      color: #ECE9E0; }
+    .budgie-panel .budgie-menu-launcher:checked, .budgie-panel button.flat:checked, .budgie-panel button.sidebar-button:checked, .budgie-panel button.flat.launcher:checked, .budgie-panel button.launcher.sidebar-button:checked, .budgie-panel button.flat.raven-trigger:checked, .budgie-panel button.raven-trigger.sidebar-button:checked {
+      background-color: #123553;
+      border-color: #123553;
+      color: #ECE9E0; }
+    .budgie-panel .budgie-menu-launcher:active, .budgie-panel button.flat:active, .budgie-panel button.sidebar-button:active, .budgie-panel button.flat.launcher:active, .budgie-panel button.launcher.sidebar-button:active, .budgie-panel button.flat.raven-trigger:active, .budgie-panel button.raven-trigger.sidebar-button:active {
+      background-color: rgba(3, 8, 13, 0.97);
+      border-color: rgba(3, 8, 13, 0.97);
+      color: #E6BB00; }
