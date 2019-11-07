@@ -1797,52 +1797,52 @@ headerbar switch:checked:disabled,
 .primary-toolbar switch:checked:disabled {
   background-image: -gtk-scaled(url("assets/switch-active-insensitive-header.png"), url("assets/switch-active-insensitive-header@2.png")); }
 
-.nautilus-window popover stack box > modelbutton:active {
+.nautilus-window popover stack box > modelbutton:active, popover modelbutton:active {
   background-color: rgba(230, 187, 0, 0.12);
   color: #414037; }
-.nautilus-window popover stack box > modelbutton check:hover {
+.nautilus-window popover stack box > modelbutton check:hover, popover modelbutton check:hover {
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-hover.png"), url("assets/checkbox-unchecked-hover@2.png")); }
 
-.nautilus-window popover stack box > modelbutton:active {
+.nautilus-window popover stack box > modelbutton:active, popover modelbutton:active {
   background-color: rgba(230, 187, 0, 0.12);
   color: #414037; }
-.nautilus-window popover stack box > modelbutton check:hover:insensitive {
+.nautilus-window popover stack box > modelbutton check:hover:insensitive, popover modelbutton check:hover:insensitive {
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-hover-insensitive.png"), url("assets/checkbox-unchecked-hover-insensitive@2.png")); }
 
-.nautilus-window popover stack box > modelbutton:active {
+.nautilus-window popover stack box > modelbutton:active, popover modelbutton:active {
   background-color: rgba(230, 187, 0, 0.12);
   color: #414037; }
-.nautilus-window popover stack box > modelbutton check:active {
+.nautilus-window popover stack box > modelbutton check:active, popover modelbutton check:active {
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked.png"), url("assets/checkbox-checked@2.png")); }
 
-.nautilus-window popover stack box > modelbutton:active {
+.nautilus-window popover stack box > modelbutton:active, popover modelbutton:active {
   background-color: rgba(230, 187, 0, 0.12);
   color: #414037; }
-.nautilus-window popover stack box > modelbutton check:checked:hover {
+.nautilus-window popover stack box > modelbutton check:checked:hover, popover modelbutton check:checked:hover {
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked.png"), url("assets/checkbox-checked@2.png")); }
 
-.nautilus-window popover stack box > modelbutton:active {
+.nautilus-window popover stack box > modelbutton:active, popover modelbutton:active {
   background-color: rgba(230, 187, 0, 0.12);
   color: #414037; }
-.nautilus-window popover stack box > modelbutton radio:hover {
+.nautilus-window popover stack box > modelbutton radio:hover, popover modelbutton radio:hover {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-hover.png"), url("assets/radio-unchecked-hover@2.png")); }
 
-.nautilus-window popover stack box > modelbutton:active {
+.nautilus-window popover stack box > modelbutton:active, popover modelbutton:active {
   background-color: rgba(230, 187, 0, 0.12);
   color: #414037; }
-.nautilus-window popover stack box > modelbutton radio:hover:insensitive {
+.nautilus-window popover stack box > modelbutton radio:hover:insensitive, popover modelbutton radio:hover:insensitive {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-hover-insensitive.png"), url("assets/radio-unchecked-hover-insensitive@2.png")); }
 
-.nautilus-window popover stack box > modelbutton:active {
+.nautilus-window popover stack box > modelbutton:active, popover modelbutton:active {
   background-color: rgba(230, 187, 0, 0.12);
   color: #414037; }
-.nautilus-window popover stack box > modelbutton radio:active {
+.nautilus-window popover stack box > modelbutton radio:active, popover modelbutton radio:active {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-checked.png"), url("assets/radio-checked@2.png")); }
 
-.nautilus-window popover stack box > modelbutton:active {
+.nautilus-window popover stack box > modelbutton:active, popover modelbutton:active {
   background-color: rgba(230, 187, 0, 0.12);
   color: #414037; }
-.nautilus-window popover stack box > modelbutton radio:checked:hover {
+.nautilus-window popover stack box > modelbutton radio:checked:hover, popover modelbutton radio:checked:hover {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-checked.png"), url("assets/radio-checked@2.png")); }
 
 .check,
@@ -3621,6 +3621,24 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
 .panel .menu .spinner,
 .menu .spinner {
   opacity: 1; }
+
+.thunar .sidebar .view, .thunar .sidebar iconview {
+  background-color: rgba(245, 246, 247, 0.95);
+  color: #414037; }
+  .thunar .sidebar .view.cell:selected, .thunar .sidebar iconview.cell:selected, .thunar .sidebar .view.cell:selected:hover, .thunar .sidebar iconview.cell:selected:hover {
+    background: #E6BB00;
+    color: #141517; }
+  .thunar .sidebar .view.cell:hover, .thunar .sidebar iconview.cell:hover, .thunar .sidebar .view.cell:active, .thunar .sidebar iconview.cell:active {
+    background-color: rgba(228, 231, 233, 0.95);
+    color: #414037; }
+.thunar notebook .view, .thunar notebook iconview {
+  background-color: #ffffff;
+  color: #414037; }
+  .thunar notebook .view .rubberband, .thunar notebook iconview .rubberband {
+    background-color: rgba(179, 146, 0, 0.2); }
+  .thunar notebook .view:selected, .thunar notebook iconview:selected {
+    background-color: #E6BB00;
+    color: #141517; }
 
 UnityDecoration {
   -UnityDecoration-extents: 28px 1 1 1;
